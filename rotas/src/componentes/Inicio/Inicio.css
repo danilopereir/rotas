@@ -1,0 +1,9 @@
+.inicio, .muscular, .contatos, .parceiros, .missao, .sobre, .titulo, footer {
+    
+    text-align: center;
+}
+
+.inicio {
+    height: 95.8vh;
+    background-color: beige;
+}

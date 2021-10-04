@@ -1,12 +1,20 @@
- import React from "react";
- import './App.js';
- import "./Fiat/1-fiat.css";
+ import React from "react"
 
- export default function Pagina2() {
+ import './Fiat.css'
+ import Ford from '../Ford/2-ford'
+ import chevroletHeader from "./chevroletHeader"
+ import { Route, Switch } from 'react-router'
+
+ export default function Fiat() {
      return (
         <div>
-            <h1> 1-Fiat </h1>
-            <h2> Fiat </h2>
+            <FiatHeader />
+
+            <Ford texto="Ford" />
+
+            <div className="Fiat">
+
+            </div>
         </div>
      );
  }

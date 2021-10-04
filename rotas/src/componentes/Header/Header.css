@@ -1,6 +1,9 @@
-   .menu{
-    height: 40px;
-    border: 1px solid rgb(214, 46, 16);
+/* 
+   configurações do menu principal
+*/   
+   
+.menu {
+    height: 5vh;
     background-color: whitesmoke;
     padding-bottom: 8px;
     font-size: 16px;
@@ -9,22 +12,26 @@
     width: 100vw;
 }
 
-.navMenu::after{
+.navMenu::after {
     content: '';
     display: block;
     clear: both;
 }
 
-.navMenu ul{
+.navMenu ul {
     list-style: none;
     text-align: left;
+
+/*
+    display: flex;    
+*/
 }
 
 .navMenu ul li {
     display: inline;
 }
 
-.navMenu ul li a{
+.navMenu ul li a {
     padding-left: 1.5vw;
     display: inline-block;
     text-decoration: none;
@@ -33,6 +40,5 @@
 
 .navMenu ul li a:hover{
     font-weight: bold;
-    font-size: 22px;
     color: blue;
 }
