@@ -1,25 +1,24 @@
 import React from "react";
-import Header from './Header/Header.jsx';
-import './Chevrolet/3-chevrolet.css';
+
+import './chevrolet.css'
+import Fiat from '../Fiat/1-fiat'
+import Ford from '../Ford/2-ford'
+import { Route, Switch } from 'react-router'
 
 
 export default function Chevrolet() {
 	return (
-		<div className="App">
-			<div>
-				<header>
+		<div>
+			<chevroletHeader />
 
-				<header/>
+			<Fiat texto="chervolet" />
+
+			<div className="chevrolet">
+				
 			</div>
-			<main>
-				<div>
-					<Corpo
-						nomecanal={"Chevrolet"}
-						color={"rgb(150, 150, 250)"}
-					></Corpo>
-				</div>
-			</main>
+
 		</div>
+
 	);
 }
 
